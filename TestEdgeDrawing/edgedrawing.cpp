@@ -2,10 +2,10 @@
 
 EdgeDrawing::EdgeDrawing(){}
 
-QVector<_EDGE> EdgeDrawing::getEdgesFromImage(const QImage &img, int gaussR, int sobelThreshold, int archorThreshold)
+QVector<QVector<QPoint>> EdgeDrawing::getEdgesFromImage(const QImage &img, int gaussR, int sobelThreshold, int archorThreshold)
 {
     if(img.isNull())
-        return QVector<_EDGE>();
+        return QVector<QVector<QPoint>>();
 
     this->m_orginalImage = img;
     this->getGradientAndDirectionMap(this->getGrayImage(this->getGaussianBlurImage(this->m_orginalImage,gaussR)),sobelThreshold);
@@ -141,7 +141,7 @@ void EdgeDrawing::getEdges()
     // start to find all edges with each archor
     for(unsigned int i=0; i<m_archors.size(); i++)
     {
-        _EDGE edge; // a new edge start from m_archor[i];
+        QVector<QPoint> edge; // a new edge start from m_archor[i];
 
         int x = m_archors[i].x();
         int y = m_archors[i].y();
@@ -152,7 +152,7 @@ void EdgeDrawing::getEdges()
     }
 }
 
-void EdgeDrawing::searchFromArchor(int x, int y, QVector<QVector<bool> > &isEdge, _EDGE &edge)
+void EdgeDrawing::searchFromArchor(int x, int y, QVector<QVector<bool> > &isEdge, QVector<QPoint> &edge)
 {
     if(x-1<0 || y-1<0 || x+1>=this->m_orginalImage.width() || y+1>=this->m_orginalImage.height())
         return;

@@ -17,8 +17,6 @@
 #define DIR_VER 1
 #define DIR_HOR 2
 
-typedef QVector<QPoint> _EDGE;
-
 class EdgeDrawing
 {
 public:
@@ -33,7 +31,7 @@ public:
      *       - sobelThreshold: the threshold of sobel filter
      *       - archorThreshold: the threshold to determine archors.
    */
-    QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=3,int sobelThreshold=30,int archorThreshold=8);
+    QVector<QVector<QPoint>> getEdgesFromImage(const QImage& img,int gaussR=3,int sobelThreshold=30,int archorThreshold=8);
 
     /*
      * Function 'getEdgeImage()'
@@ -51,7 +49,7 @@ private:
     QVector<QVector<float> > m_gradientImg;
     QVector<QVector<float> > m_directionImg;
     QVector<QPoint> m_archors;
-    QVector<_EDGE>  m_edges;
+    QVector<QVector<QPoint>>  m_edges;
 
     QImage getGaussianBlurImage(const QImage &img, int r);
     QImage getGrayImage(const QImage &img);
@@ -59,7 +57,7 @@ private:
     void getGradientAndDirectionMap(const QImage& imggray, int threshold=30);
     void getArchors(float threshold = 0);
     void getEdges();
-    void searchFromArchor(int x,int y,QVector<QVector<bool> >& isEdge,_EDGE& edge);
+    void searchFromArchor(int x,int y,QVector<QVector<bool> >& isEdge,QVector<QPoint>& edge);
 
     int rx(int x, int offset, int width);
     int ry(int y, int offset, int height);

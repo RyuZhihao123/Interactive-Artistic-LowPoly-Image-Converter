@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     // Notice that choose valid paths.
-    QString inputPath = "C:/Users/LiewDennis/Desktop/defaultInput.png";
+    QString inputPath = "C:/Users/LiewDennis/Desktop/736206.png";
     QString savePath  = "C:/Users/LiewDennis/Desktop/result.jpg";
 
     EdgeDrawing edgeDrawing;
