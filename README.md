@@ -10,7 +10,9 @@ This project is implemented by ***RyuZhihao123*** using *Qt*. Users can get egde
 Only ***Qt***. No need for OpenCV etc.
 
 ## Example Results:
+Different Edge is showed in different colors.
 ![Result1.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result3.png)
+Some other results. all the edges are showed in the same color.
 ![Result2.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result2.png)
 ![Result3.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result3.png)
 ![Result4.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result1.png)
