@@ -41,7 +41,9 @@ int main(int argc, char *argv[])
 
 ## Others:
 (1). Structure ***_EDGE*** is defined as QVector\<QPoint\>, which is a *vector* of *QPoint*.
-
+```
+typedef QVector<QPoint> _EDGE;
+```
 (2) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.<br />
     **QVector\<_EDGE\>** is equal to **QVector\<QVector\<QPoint\>\>**, which is a 2-dimentional vector. and each **QVector\<QPoint\>** is used to describe an edge.
 ```
