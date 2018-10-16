@@ -1,2 +1,47 @@
 # Edge_Drawing
 Implementation of Edge Drawing Algorithm with Qt, which can produce high-quality edge segments, which are clean, well-localized and one-pixel wide.
+
+This project is implemented by RyuZhihao123 using Qt, refering to the paper[1]. Users can get egdes which are one pixel wide and clean from an input image.
+
+## Reference:
+[1] Cihan Topal, Cuneyt Akinlar. 'Edge Drawing:A combined real-time edge and segment detector'.
+
+## Usage:
+```
+int main(int argc, char *argv[])
+{
+    // Notice that choose valid paths.
+    QString inputPath = "C:/Users/LiewDennis/Desktop/default.jpg";
+    QString savePath  = "C:/Users/LiewDennis/Desktop/result.jpg";
+
+    EdgeDrawing edgeDrawing;
+
+    // Test for 'getEdgesFromImage()'
+    QVector<QVector<QPoint>> edgeVector =edgeDrawing.getEdgesFromImage(QImage(inputPath),5,30,8);
+    std::cout<<"Edge Amount: "<<edgeVector.size()<<std::endl;
+
+    // Test for 'getEdgeImage()'
+    QImage edgeImg = edgeDrawing.getEdgeImage(QImage(inputPath),5,30,8);
+    edgeImg.save(savePath);
+
+    return 0;
+}
+```
+
+## Others:
+(1). the ***_EDGE*** is defined as ***QVector\<QPoint\>***, which is a *vector* of *QPoint*.
+
+(2) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.
+```
+QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
+```
+(3) Calling ***getEdgeImage()*** will return an edge image.
+```
+QImage getEdgeImage(const QImage &img, int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
+```
+(4) Paramters:
+            - img     : the original image you input.
+            - gaussR  : the distance of gaussian blur.
+            - sobelThreshold: the threshold of sobel filter
+            - archorThreshold: the threshold to determine archors.
+
