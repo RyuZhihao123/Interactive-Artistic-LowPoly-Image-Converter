@@ -15,7 +15,7 @@ QVector<_EDGE> EdgeDrawing::getEdgesFromImage(const QImage &img, int gaussR, int
     return this->m_edges;
 }
 
-QImage EdgeDrawing::getEdgeImage(const QImage& img,int gaussR=5,int sobelThreshold=30,int archorThreshold=20)
+QImage EdgeDrawing::getEdgeImage(const QImage& img,int gaussR,int sobelThreshold,int archorThreshold)
 {
     if(img.isNull())
         return QImage();

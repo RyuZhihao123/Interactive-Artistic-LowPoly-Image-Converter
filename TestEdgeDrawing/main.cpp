@@ -1,11 +1,10 @@
-#include <QLabel>
 #include <iostream>
 #include "edgedrawing.h"
 
 int main(int argc, char *argv[])
 {
     // Notice that choose valid paths.
-    QString inputPath = "C:/Users/LiewDennis/Desktop/default.jpg";
+    QString inputPath = "C:/Users/LiewDennis/Desktop/defaultInput.png";
     QString savePath  = "C:/Users/LiewDennis/Desktop/result.jpg";
 
     EdgeDrawing edgeDrawing;

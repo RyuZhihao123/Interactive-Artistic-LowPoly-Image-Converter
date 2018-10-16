@@ -33,7 +33,7 @@ public:
      *       - sobelThreshold: the threshold of sobel filter
      *       - archorThreshold: the threshold to determine archors.
    */
-    QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
+    QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=3,int sobelThreshold=30,int archorThreshold=8);
 
     /*
      * Function 'getEdgeImage()'
@@ -42,7 +42,7 @@ public:
      *    (2) Paramters:
      *        As mentioned above.
     */
-    QImage getEdgeImage(const QImage &img, int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
+    QImage getEdgeImage(const QImage &img, int gaussR=3,int sobelThreshold=30,int archorThreshold=8);
 
     void releaseAll();
 
