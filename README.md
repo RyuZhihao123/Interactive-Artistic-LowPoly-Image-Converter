@@ -49,9 +49,9 @@ QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=5,int sobelThresho
 ```
 QImage getEdgeImage(const QImage &img, int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
 ```
-(3) Paramters:
-            **img**     : the original image you input.
-            **gaussR**  : the distance of gaussian blur.
-            **sobelThreshold** : the threshold of sobel filter
+(3) Paramters:<br />
+            **img**     : the original image you input.<br />
+            **gaussR**  : the distance of gaussian blur.<br />
+            **sobelThreshold** : the threshold of sobel filter<br />
             **archorThreshold**: the threshold to determine archors.
 
