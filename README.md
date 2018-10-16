@@ -6,6 +6,9 @@ This project is implemented by ***RyuZhihao123*** using *Qt*. Users can get egde
 ## Reference:
 [1] Cihan Topal, Cuneyt Akinlar. 'Edge Drawing:A combined real-time edge and segment detector'.
 
+## Requirments:
+Only ***Qt***. No need for OpenCV etc.
+
 ## Example Results:
 ![Result1.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result1.png)
 ![Result2.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result2.png)
