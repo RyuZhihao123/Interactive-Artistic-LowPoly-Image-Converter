@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 ```
 
 ## Others:
-(1). the ***_EDGE*** is defined as ***QVector<QPoint>***, which is a *vector* of *QPoint*.
+(1). the ***_EDGE*** is defined as ***QVector\<QPoint>***, which is a *vector* of *QPoint*.
 
 (2) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.
 ```
