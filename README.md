@@ -40,20 +40,16 @@ int main(int argc, char *argv[])
 ```
 
 ## Others:
-(1). Structure ***_EDGE*** is defined as QVector\<QPoint\>, which is a *vector* of *QPoint*.
-```
-typedef QVector<QPoint> _EDGE;
-```
-(2) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.<br />
-    **QVector\<_EDGE\>** is equal to **QVector\<QVector\<QPoint\>\>**, which is a 2-dimentional vector. and each **QVector\<QPoint\>** is used to describe an edge.
+(1) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.<br />
+    **QVector\<QVector\<QPoint\>\>** is used to describe the edge information, which is a 2-dimentional vector. And each **QVector\<QPoint\>** is used to describe one single edge.
 ```
 QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
 ```
-(3) Calling ***getEdgeImage()*** will return an edge image.
+(2) Calling ***getEdgeImage()*** will return an edge image.
 ```
 QImage getEdgeImage(const QImage &img, int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
 ```
-(4) Paramters:
+(3) Paramters:
             **img**     : the original image you input.
             **gaussR**  : the distance of gaussian blur.
             **sobelThreshold** : the threshold of sobel filter
