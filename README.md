@@ -6,6 +6,12 @@ This project is implemented by RyuZhihao123 using Qt, refering to the paper[1]. 
 ## Reference:
 [1] Cihan Topal, Cuneyt Akinlar. 'Edge Drawing:A combined real-time edge and segment detector'.
 
+## Example Results:
+![Result1.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result1.png)
+![Result2.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result2.png)
+![Result3.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result3.png)
+![Result4.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result4.png)
+![Result5.png](https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result5.png)
 ## Usage:
 ```
 int main(int argc, char *argv[])
