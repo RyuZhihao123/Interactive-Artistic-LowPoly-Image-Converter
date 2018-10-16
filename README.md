@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 
 ## Others:
 (1) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.<br />
-    **QVector\<QVector\<QPoint\>\>** is used to describe the edge information, which is a 2-dimentional vector. And each **QVector\<QPoint\>** is used to describe one single edge.
+    **QVector\<QVector\<QPoint\>\>** is used to describe the edge information, which is a 2-dimentional vector. And each **QVector\<QPoint\>** is used to define one single edge.
 ```
 QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
 ```
