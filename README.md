@@ -1,13 +1,13 @@
 # Edge_Drawing
-Implementation of Edge Drawing Algorithm with Qt, which can produce high-quality edge segments, which are clean, well-localized and one-pixel wide, refering to the paper[1].
+Implementation of Edge Drawing Algorithm with Qt, which can produce high-quality edge segments, which are clean, well-localized and one-pixel wide, refering to this paper[1].
 
-This project is implemented by ***RyuZhihao123*** using *Qt*. Users can get egdes which are one pixel wide and clean from an input image.
+This project is implemented by ***RyuZhihao123*** using *Qt*. You can get one-pixel wide egdes from any input image.
 
 ## Reference:
 [1] Cihan Topal, Cuneyt Akinlar. 'Edge Drawing:A combined real-time edge and segment detector'.
 
 ## Requirments:
-ONLY NEEDS ***Qt***. NO NEED for OpenCV etc.
+ONLY NEEDS ***Qt***(Qt5.2 or later is supported). NO NEED for OpenCV etc.
 
 ## Example Results:
 Different Edge is showed in different colors.
