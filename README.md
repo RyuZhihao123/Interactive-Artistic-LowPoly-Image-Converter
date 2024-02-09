@@ -10,14 +10,17 @@ Double click the ``TestLowPoly.exe`` to easily execute this software. You can di
 
 ![Result2.png](https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/1-1.png)
 
-**Parameter Control:** Users can easily adjust a few simple parameters to control the LowPolys in different level of detail. The provided parameters includes:
-- ``Blur``: Larger Blur values will smooth the original image more heavely.
-- ``Achor Threshold``: It controls how many pixels will be selected as initial Archors.
-- ``Sobel Threshold``: It controls how the final LowPoly image will reflect the edge features.
-- ``Min Triangle Size``: It controls the size of the Delauney Triangularization.
-- ``Poisson Dict Radius``: It controls the density of intial sampled poisson points.
+- **Load & Save Images:** Use the two buttons in the top-right to load new images or save your creations.
 
-**Free Edit the Delauney Triangularization:** As shown in the right of Fig.1, we enable the users to edit the final LowPoly images by freely adding or removing the delauney points as their wish.
+
+- **Parameter Control:** Users can easily adjust a few simple parameters to control the LowPolys in different level of detail. The provided parameters includes:
+    - ``Blur``: Larger Blur values will smooth the original image more heavely.
+    - ``Achor Threshold``: It controls how many pixels will be selected as initial Archors.
+    - ``Sobel Threshold``: It controls how the final LowPoly image will reflect the edge features.
+    - ``Min Triangle Size``: It controls the size of the Delauney Triangularization.
+    - ``Poisson Dict Radius``: It controls the density of intial sampled poisson points.
+
+- **Free Edit the Delauney Triangularization:** As shown in the right of Fig.1, we enable the users to edit the final LowPoly images by freely adding or removing the delauney points as their wish.
 
 
 
