@@ -2,11 +2,18 @@
 
 I created an easy-to-use software for easily converting images into artist LowPoly style using C++.
 
-Please visit this link to download my executable program: [[Download EXE]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao). (Please download the entire folder).
+**Executable Software:** [[Download EXE]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao)
 
-Double click the ``TestLowPoly.exe`` to easily execute this software. You can directly run the program **without any configuration** in Windows 7+ !
+Double click the ``TestLowPoly.exe`` to directly execute my software. You can run the program easily **without any configuration** in Windows 7+ !
 
-## User Interface
+But please remember to download the entire folder (including .dlls) and then run this executable program.
+
+**Source Codes:** [[Download Codes]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao/Codes).
+
+You can compile my codes with most common C++ IDEs. We suggested to use Qt 5.8+ or Visual Studio 2019+. 
+
+
+## 1. User Interface
 
 ![Result2.png](https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/1-1.png)
 
@@ -26,7 +33,7 @@ To do this, you need to switch the ComboBox into the ``**Process`` mode as follo
 <div align=center><img height="200" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/0.png"/></div>
 
 
-## Results
+## 2. Results
 
 Alright, now let's enjoy this software and explore your own LowPolys!
 
@@ -44,25 +51,25 @@ Results under different paramter settings.
 
 
 
-## A Clean version of Codes for Edge_Drawing
+## 3. A Clean Version of Codes for Edge_Drawing
 Since many friends asked me about my implementation of the Edge Drawing Algorithm, which is one of the steps of my LowPoly software.
 I sorted out a clean version C++ codes for this algorithm seperately.
 It can produce high-quality edge segments, which are clean, well-localized and one-pixel wide. Please refer to this paper (Topal and Akinlar[1]) for more details.
 
 You can get my sources codes from this [[Link]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/TestEdgeDrawing):
 
-## Reference:
+### Reference:
 [1] Cihan Topal, Cuneyt Akinlar. 'Edge Drawing:A combined real-time edge and segment detector'.
 
-## Requirments:
+### Requirments:
 ONLY NEEDS ***Qt***(Qt5.2 or later is supported) or Visual Studio 2019+ to configure this project. NOT DEPENDS ON OpenCV.
 
-## Example Results:
+### Example Results:
 Different edges are shown in different colors.
 <div align=center><img width="700" src="https://github.com/RyuZhihao123/Edge_Drawing/blob/master/result_examples/result3.png"/></div>
 
 
-## Usage:
+### Usage:
 ```
 int main(int argc, char *argv[])
 {
@@ -84,7 +91,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-## Others:
+### Others:
 (1) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.<br />
     **QVector\<QVector\<QPoint\>\>** is used to describe the edge information, which is a 2-dimentional vector. And each **QVector\<QPoint\>** is used to define one single edge.
 ```
