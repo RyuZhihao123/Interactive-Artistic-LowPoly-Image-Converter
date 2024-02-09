@@ -13,7 +13,7 @@ But please remember to download the entire folder (including .dlls) and then run
 $\bullet$ **Source Codes:**
 [[Download Codes]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao/Source%20codes).
 
-You can compile my codes with most common C++ IDEs. We suggested to use Qt 5.8+ or Visual Studio 2019+. 
+You can compile my codes with most of common C++ IDEs. We suggested to use Qt 5.8+ or Visual Studio 2019+. 
 
 
 ## 1. User Interface
