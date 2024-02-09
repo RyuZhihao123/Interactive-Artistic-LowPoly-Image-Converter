@@ -25,7 +25,7 @@ Double click the ``TestLowPoly.exe`` to easily execute this software. You can di
 
 Alright, now let's enjoy this software and explore your own LowPolys!
 
-<div align=center><img height="600" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/5.png"/></div>
+<div align=center><img height="500" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/5.png"/></div>
 
 Results under different paramter settings.
 
