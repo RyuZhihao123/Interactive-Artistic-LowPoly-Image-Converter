@@ -44,8 +44,10 @@ Results under different paramter settings.
 
 
 
-## Key Codes for Edge_Drawing
-My Implementation of Edge Drawing Algorithm with C++. It can produce high-quality edge segments, which are clean, well-localized and one-pixel wide, refering to this paper (Topal and Akinlar[1]).
+## A Clean version of Codes for Edge_Drawing
+Since many friends asked me about my implementation of the Edge Drawing Algorithm, which is one of the steps of my LowPoly software.
+I sorted out a clean version C++ codes for this algorithm seperately.
+It can produce high-quality edge segments, which are clean, well-localized and one-pixel wide. Please refer to this paper (Topal and Akinlar[1]) for more details.
 
 You can get my sources codes from this [[Link]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/TestEdgeDrawing):
 
