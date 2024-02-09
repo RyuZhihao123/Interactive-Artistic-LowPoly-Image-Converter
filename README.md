@@ -2,7 +2,7 @@
 
 I created an easy-to-use software for easily converting images into artist LowPoly style using ``C++``.
 
-![Result2.png](https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/1-1.png)
+<div align=center><img height="200" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/6.png"/></div>
 
 
 $\bullet$ **Executable Software:**
@@ -19,6 +19,7 @@ You can compile my codes with most common C++ IDEs. We suggested to use Qt 5.8+ 
 
 ## 1. User Interface
 
+![Result2.png](https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/1-1.png)
 
 
 - **Load & Save Images:** Use the two buttons in the top-right to load new images or save your creations.
