@@ -1,8 +1,8 @@
 # LowPoly-Image-Converter-Zhihao
 
-I implemented an easy-to-use software for easily converting images into artist LowPoly style using C++.
+I created an easy-to-use software for easily converting images into artist LowPoly style using C++.
 
-Please visit this link to download the executable program: [[EXE]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao).
+Please visit this link to download my executable program: [[EXE]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao).
 
 Double click the ``TestLowPoly.exe`` to easily execute this software. You can directly run the program **without any configuration** in Windows 7+ !
 
