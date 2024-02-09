@@ -1,6 +1,7 @@
 # LowPoly-Image-Converter-Zhihao
-
-<div align=center><img height="200" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/6.png"/></div>
+<!--
+<div align=center><img height="200" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/6.png"/></div> 
+-->
 
 I created an easy-to-use software for easily converting images into artist LowPoly style using ``C++``.
 
