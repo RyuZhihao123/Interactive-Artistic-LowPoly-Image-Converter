@@ -21,7 +21,9 @@ Double click the ``TestLowPoly.exe`` to easily execute this software. You can di
     - ``Poisson Dict Radius``: It controls the density of intial sampled poisson points.
 
 - **Free Edit the Delauney Triangularization:** As shown in the right of Fig.1, we enable the users to edit the final LowPoly images by freely adding or removing the delauney points as their wish.
+To do this, you need to switch the ComboBox into the ``**Process`` mode as follows. Under this mode, you can use ``Ctrl+LeftMouseButton`` to add new Delauney points and ``Alt+LeftMouseButton`` to remove the points within a rectangular area.
 
+<div align=center><img height="200" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/6.png"/></div>
 
 
 ## Results
