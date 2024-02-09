@@ -45,7 +45,7 @@ Results under different paramter settings.
 
 
 ## Key Codes for Edge_Drawing
-My Implementation of Edge Drawing Algorithm with Qt. It can produce high-quality edge segments, which are clean, well-localized and one-pixel wide, refering to this paper (Topal and Akinlar[1]).
+My Implementation of Edge Drawing Algorithm with C++. It can produce high-quality edge segments, which are clean, well-localized and one-pixel wide, refering to this paper (Topal and Akinlar[1]).
 
 You can get my sources codes from this [[Link]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/TestEdgeDrawing):
 
