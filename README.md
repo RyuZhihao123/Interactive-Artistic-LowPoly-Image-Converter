@@ -73,20 +73,20 @@ Different edges are shown in different colors.
 
 
 ### Usage:
-```
+```C++
 int main(int argc, char *argv[])
 {
-    // Notice that choose valid paths.
+    // Your paths to input and output images.
     QString inputPath = "C:/Users/LiewDennis/Desktop/default.jpg";
     QString savePath  = "C:/Users/LiewDennis/Desktop/result.jpg";
 
     EdgeDrawing edgeDrawing;
 
-    // Test for 'getEdgesFromImage()'
+    // Test the function 'getEdgesFromImage()'
     QVector<QVector<QPoint>> edgeVector =edgeDrawing.getEdgesFromImage(QImage(inputPath),5,30,8);
     std::cout<<"Edge Amount: "<<edgeVector.size()<<std::endl;
 
-    // Test for 'getEdgeImage()'
+    // Test the function 'getEdgeImage()'
     QImage edgeImg = edgeDrawing.getEdgeImage(QImage(inputPath),5,30,8);
     edgeImg.save(savePath);
 
@@ -97,11 +97,11 @@ int main(int argc, char *argv[])
 ### Others:
 (1) Calling ***getEdgesFromImage()*** will return a *vector* of *_EDGE*.<br />
     **QVector\<QVector\<QPoint\>\>** is used to describe the edge information, which is a 2-dimentional vector. And each **QVector\<QPoint\>** is used to define one single edge.
-```
+```C++
 QVector<_EDGE> getEdgesFromImage(const QImage& img,int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
 ```
 (2) Calling ***getEdgeImage()*** will return an edge image.
-```
+```C++
 QImage getEdgeImage(const QImage &img, int gaussR=5,int sobelThreshold=30,int archorThreshold=60);
 ```
 (3) Paramters:<br />
