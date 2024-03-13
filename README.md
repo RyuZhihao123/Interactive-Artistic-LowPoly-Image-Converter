@@ -52,8 +52,6 @@ Results under different paramter settings.
 
 
 
-
-
 ## 3. A Clean Version of Codes for Edge_Drawing
 Since many friends asked me about my implementation of the Edge Drawing Algorithm, which is one of the steps of my LowPoly software.
 I sorted out a clean version C++ codes for this algorithm seperately.
