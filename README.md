@@ -8,7 +8,7 @@ I developed an easy-to-use software for easily converting images into artistic L
 $\bullet$ **Executable Software:**
 [[Download EXE]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao)
 
-Double click the ``TestLowPoly.exe`` to directly execute my software. You can run the program easily **without any configuration** in Windows 7+ !
+Double click the ``TestLowPoly.exe`` to directly execute my software. You can run the program easily **without any configuration** in Windows 7+!
 But please remember to download the entire folder (including .dlls) and then run this executable program.
 
 $\bullet$ **Source Codes:**
