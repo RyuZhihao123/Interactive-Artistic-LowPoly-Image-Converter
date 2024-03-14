@@ -37,6 +37,7 @@ To do this, you need to switch the ComboBox into the ``**Process`` mode as follo
 <div align=center><img height="200" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/0.png"/></div>
 
 
+
 ## 2. Results
 
 Alright, now let's enjoy this software and explore your own LowPolys!
