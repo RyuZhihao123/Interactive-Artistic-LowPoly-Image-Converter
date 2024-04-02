@@ -16,9 +16,9 @@ $\bullet$ **Source Codes:**
 
 You can compile my codes using most of common C++ IDEs. We suggest to use Qt 5.8+ or Visual Studio 2019+. 
 
-$\bullet$ **Video:**
+$\bullet$ **Video:** [[Video in Bilibili (In Chinese)]](https://www.bilibili.com/video/BV1xb411F7Kd)
 
-Please watch this video for the usage of this sofware: [[Video in Bilibili (In Chinese)]](https://www.bilibili.com/video/BV1xb411F7Kd).
+Please watch this video for more details on the usage of this sofware.
 
 
 ## 1. User Interface
