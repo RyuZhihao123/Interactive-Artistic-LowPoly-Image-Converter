@@ -1,4 +1,4 @@
-# LowPoly-Image-Converter-Zhihao
+# LowPoly-Image-Converter-LiuZhihao
 
 ![Result2.png](https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/1-1.png)
 
