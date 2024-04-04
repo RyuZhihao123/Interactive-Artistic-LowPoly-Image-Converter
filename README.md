@@ -5,18 +5,18 @@
 I developed an easy-to-use software for easily converting images into artistic LowPoly style using ``C++``.
 
 
-$\bullet$ **Executable Software:**
+💻 $\bullet$ **Executable Software:**
 [[Download EXE]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao)
 
 Double click the ``TestLowPoly.exe`` to directly execute my software. You can run the program easily **without any configuration** in Windows 7+!
 But please remember to download the entire folder (including .dlls) and then run this executable program.
 
-$\bullet$ **Source Codes:**
+📁 $\bullet$ **Source Codes:**
 [[Download Codes]](https://github.com/RyuZhihao123/LowPoly-Image-Converter/tree/master/LowPoly_Zhihao/Source%20codes).
 
 You can compile my codes using most of common C++ IDEs. We suggest to use Qt 5.8+ or Visual Studio 2019+. 
 
-$\bullet$ **Video:** [[Video in Bilibili (In Chinese)]](https://www.bilibili.com/video/BV1xb411F7Kd)
+🎞️ $\bullet$ **Video:** [[Video in Bilibili (In Chinese)]](https://www.bilibili.com/video/BV1xb411F7Kd)
 
 Please watch this video for more details on the usage of this sofware.
 
