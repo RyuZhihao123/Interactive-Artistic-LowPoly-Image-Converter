@@ -1,6 +1,6 @@
 # LowPoly-Image-Converter-LiuZhihao
 
-![Result2.png](https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/1-1.png)
+<div align=center><img height="300" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/6.png"/></div> 
 
 I developed an easy-to-use software for easily converting images into artistic LowPoly style using ``C++``.
 
@@ -24,7 +24,8 @@ Please watch this video for more details on the usage of this sofware.
 
 ## 1. User Interface
 
-<div align=center><img height="300" src="https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/6.png"/></div> 
+![Result2.png](https://github.com/RyuZhihao123/LowPoly-Image-Converter/blob/master/LowPoly_Zhihao/figures/1-1.png)
+
 
 - **Load & Save Images:** Use the two buttons in the top-right to load new images or save your creations.
 
